@@ -1,0 +1,129 @@
+:root {
+    /* 
+    --lavender: #4056a1;
+    --dark-torquise: #379683;
+    --light-green: #5cdb95;
+    --geno-green: #8ee4af;
+    --white: #edf5e1;
+    */
+    --light-green: #60d748;
+    --dark-torquise: #8ee6ab;
+    --geno-green: #64dd6e;
+    --creme-green: #bbe071;
+
+    /* Custom Colors from AYU theme ;) */
+    /* --custom-blue: rgb(92, 297, 230); */
+    --custom-blue: rgb(62, 166, 253);
+    --custom-cyan: rgb(149, 230, 203);
+    --custom-lavender: rgb(223, 191, 255);
+    --custom-green: rgb(212, 254, 127);
+    --custom-red: rgb(242, 158, 116);
+    --custom-orange: rgb(255, 209, 115);
+
+    /* Dark Theme */
+    --dark-blue: rgb(31, 36, 48);
+    --shadow: rgb(46, 77, 112);
+    --grey: rgb(107, 121, 139)
+}
+
+html {
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #000;
+    color: var(--custom-green);
+    background-color: var(--dark-blue);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    overflow-x: hidden
+}
+
+.geno {
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 1290px;
+    margin-bottom: -37px;
+}
+
+.nav {
+    border: 0;
+    font-size: 30px;
+    border-style: solid;
+    height: 70px;
+    display: inline;
+}
+
+.navitems, .articles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .navbuttons {
+    flex-direction: row;
+} */
+
+li {
+    display: inline;
+}
+
+.navbutton{
+    border-radius: 10px;
+    font-size: 32px;
+    color: var(--custom-cyan);
+    border-color: var(--custom-cyan);
+    background-color: var(--shadow);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.navbutton:hover {
+    background-color: var(--grey);
+    cursor: pointer;
+}
+.navbutton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* .navitem {
+    display: inline;
+} */
+
+.intro {
+    font-size: larger;
+}
+
+.article-header {
+    color: var(--custom-cyan);
+}
+
+.html-article, .css-article {
+    color: var(--custom-lavender);
+    max-width: 40ch;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: var(--shadow);
+    padding: 1rem;
+    margin: 2em;
+}
+
+.img {
+    font-size: 15px;
+}
+
+.copyright {
+    font-size: 25px;
+}
+
+.author {
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+footer {
+    border: 0;
+    color: var(--custom-cyan);
+    margin-bottom: -10px;
+    margin-right: -15px;
+    margin-left: -15px;
+    border-style: solid;
+    height: 80px;
+}
