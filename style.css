@@ -1,3 +1,9 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0
+}
+
 :root {
     /* 
     --lavender: #4056a1;
@@ -34,39 +40,44 @@ html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+nav {
+    color: var(--custom-blue);
+    font-size: 40px;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+
+.navitems {
+    margin-top: 0.5em;
+}
+
+.navitem {
+    display: inline;
+    padding-left: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     overflow-x: hidden
 }
 
-.geno {
-    border-radius: 50%;
-    width: 50px;
-    margin-left: 1290px;
-    margin-bottom: -37px;
-}
-
-.nav {
-    border: 0;
-    font-size: 30px;
-    border-style: solid;
-    height: 70px;
-    display: inline;
-}
-
-.navitems, .articles {
+.articles {
     display: flex;
     justify-content: space-evenly;
 }
 
-/* .navbuttons {
-    flex-direction: row;
-} */
 
-li {
-    display: inline;
-}
-
-.navbutton{
+/* .navbutton{
     border-radius: 10px;
     font-size: 32px;
     color: var(--custom-cyan);
@@ -81,7 +92,7 @@ li {
 }
 .navbutton:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
+} */
 
 /* .navitem {
     display: inline;
@@ -102,7 +113,11 @@ li {
     border-radius: 20px;
     background-color: var(--shadow);
     padding: 1rem;
-    margin: 2em;
+    margin-top: 3em;
+}
+
+.article-content {
+    padding-top: 1rem;
 }
 
 .img {
@@ -115,7 +130,6 @@ li {
 
 .author {
     font-size: 13px;
-    margin-top: -20px;
 }
 
 footer {

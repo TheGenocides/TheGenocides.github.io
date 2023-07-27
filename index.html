@@ -6,25 +6,20 @@
     <title>My Website</title>
 </head>
 <body>
-    <section class="nav">
         <!-- <img class="geno", src="imgs/True Green Camos.png" alt="geno pfp"> -->
-        <div class="navitems">
-            <nav>
-                <ul class="navbuttons">
-                    <li>
-                        <button class="navbutton" type="button" onclick="window.open('about.html', '_blank')">
-                            About Me
-                        </button>
-                    </li>
-                    <li>
-                        <button class="navbutton" type="button" onclick="window.open('etc.html', '_blank')">
-                            Quotes
-                        </button>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </section>
+    <nav>
+        <ul class="navitems">
+            <li class="navitem">
+                <a href="about">About Me</a>
+            </li>
+            <li class="navitem">
+                <a href="quotes">Quotes</a>
+            </li>
+            <li class="navitem">
+                <a href="about">Projects</a>
+            </li>
+        </ul>
+    </nav>
     <br>
     <br>
     <section class="intro" align="center">
@@ -35,17 +30,21 @@
         <div class="html-article">
             <article>
                 <h2 class="article-header">HTML <img class="img" src="imgs/html5.png" alt="HTML 5 icon" width="30"></h2>
-                <abbr title="HypeText Markup Language">HTML</abbr> is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes. 
+                <p class="article-content">
+                    <abbr title="HypeText Markup Language">HTML</abbr> is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes. 
+                </p>
             </article>
             </div>
             <div class="css-article">
             <article>
                 <h2 class="article-header">CSS <img class="img" src="imgs/html5.png" alt="HTML 5 icon" width="30"></h2>
-                <abbr title="Cascading Style Sheet">CSS</abbr> is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+                <p class="article-content">
+                    <abbr title="Cascading Style Sheet">CSS</abbr> is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+                </p>
             </article>
         </div>
     </div>
-    <br><br><br><br><br>
+    <br><br><br><br><br><br>
 </body>
 <footer behavior="direction">
     <p align="center" class="copyright">&lt;&lt;&lt; &copy; TheGenocide &gt;&gt;&gt;</p>
