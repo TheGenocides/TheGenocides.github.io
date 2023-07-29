@@ -1,30 +1,4 @@
-:root {
-    /* 
-    --lavender: #4056a1;
-    --dark-torquise: #379683;
-    --light-green: #5cdb95;
-    --geno-green: #8ee4af;
-    --white: #edf5e1;
-    */
-    --light-green: #60d748;
-    --dark-torquise: #8ee6ab;
-    --geno-green: #64dd6e;
-    --creme-green: #bbe071;
 
-    /* Custom Colors from AYU theme ;) */
-    /* --custom-blue: rgb(92, 297, 230); */
-    --custom-blue: rgb(62, 166, 253);
-    --custom-cyan: rgb(149, 230, 203);
-    --custom-lavender: rgb(223, 191, 255);
-    --custom-green: rgb(212, 254, 127);
-    --custom-red: rgb(242, 158, 116);
-    --custom-orange: rgb(255, 209, 115);
-
-    /* Dark Theme */
-    --dark-blue: rgb(31, 36, 48);
-    --shadow: rgb(46, 77, 112);
-    --grey: rgb(107, 121, 139)
-}
 
 * {
     border: 0;
@@ -40,90 +14,54 @@ html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-nav {
-    color: var(--custom-blue);
-    font-size: 40px;
-    padding-bottom: 0.5em;
-    display: flex;
-    justify-content: center;
-    position: sticky;
-}
-
-.navitems {
-    margin-top: 0.5em;
-}
-
-.navitem {
-    display: inline;
-    padding-left: 1em;
-}
-
-a {
-    text-decoration: none;
-    color: var(--custom-blue);
-}
-
-a:hover {
-    background-color: var(--shadow);
-    border-radius: 10px;
-}
-
 body {
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 .geno-pfp {
     border-radius: 10rem;
     width: 10em;
     height: 10em;
-    display: block;
-    margin: 0 auto;
+    margin-left: 25em;
     margin-top: 3em;
 }
 
-.descriptor{
-    text-align: center;
+.container{
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 20em;
     margin-top: 0.5em;
+    margin-left: 20em;
 }
 
 .box {
     font-size: medium;
     text-shadow: none;
     color: var(--custom-lavender);
+    background-color: var(--shadow);
     display: inline-block;
     margin-top: 1em;
     border-radius: 30px;
     border: 10px solid var(--shadow);
+    margin-left: 0.5em;
+
+    transition-property: font-size;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
-.box li {
-    background-color: var(--shadow);
+.box:hover {
+    font-size: x-large;
+    cursor: default;
 }
 
 .intro {
     font-size: larger;
     text-align: center;
-    width: 100ch;
+    width: 60ch;
     display: block;
     margin: 0 auto;
-}
-
-.copyright {
-    font-size: 25px;
-}
-
-.author {
-    font-size: 13px;
-}
-
-footer {
-    border: 0;
-    color: var(--custom-cyan);
-    margin-bottom: -10px;
-    margin-right: -15px;
-    margin-left: -15px;
-    border-style: solid;
-    height: 80px;
 }
 /* rgb(49, 51, 56) */
