@@ -22,17 +22,19 @@ body {
     border-radius: 10rem;
     width: 10em;
     height: 10em;
-    margin-left: 25em;
-    margin-top: 3em;
 }
 
 .container{
     list-style-type: none;
+}
+
+.flex {
     display: flex;
     justify-content: center;
-    width: 20em;
-    margin-top: 0.5em;
-    margin-left: 20em;
+}
+
+.roles {
+    padding: 1em
 }
 
 .box {
@@ -40,7 +42,6 @@ body {
     text-shadow: none;
     color: var(--custom-lavender);
     background-color: var(--shadow);
-    display: inline-block;
     margin-top: 1em;
     border-radius: 30px;
     border: 10px solid var(--shadow);
@@ -61,7 +62,6 @@ body {
     font-size: larger;
     text-align: center;
     width: 60ch;
-    display: block;
-    margin: 0 auto;
+    font-family: monospace;
 }
 /* rgb(49, 51, 56) */
