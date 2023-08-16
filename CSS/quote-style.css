@@ -9,7 +9,7 @@ html {
     text-shadow: 1px 1px 1px #000;
     color: var(--custom-green);
     background-color: var(--dark-blue);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Dosis", sans-serif;
 }
 
 body {

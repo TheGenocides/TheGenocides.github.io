@@ -1,6 +1,7 @@
 nav {
     color: var(--custom-blue);
     font-size: 2em;
+    font-family: "Roboto";
     padding-bottom: 0.5em;
     display: flex;
     justify-content: center;

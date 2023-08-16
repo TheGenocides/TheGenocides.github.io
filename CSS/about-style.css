@@ -1,5 +1,3 @@
-
-
 * {
     border: 0;
     padding: 0;
@@ -7,11 +5,11 @@
 }
 
 html {
+    font-style: "Dosis";
     font-size: 22px;
     text-shadow: 1px 1px 1px #000;
     color: var(--custom-green);
     background-color: var(--dark-blue);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .geno-pfp {
@@ -58,6 +56,6 @@ html {
     font-size: larger;
     text-align: center;
     width: 60ch;
-    font-family: monospace;
+    font-family: "Dosis";
 }
 /* rgb(49, 51, 56) */
