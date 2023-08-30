@@ -1,0 +1,29 @@
+.articles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intro {
+    font-size: larger;
+    text-align: center;
+    width:70ch;
+    display: block;
+    margin: 0 auto;
+}
+
+.article-header {
+    color: var(--custom-cyan);
+}
+
+.html-article, .css-article {
+    color: var(--custom-lavender);
+    max-width: 40ch;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: var(--shadow);
+    padding: 1em;
+}
+
+.article-content {
+    padding-top: 1rem;
+}

@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    gap: 1em;
+}
+
+.box {
+    text-align: center;
+    color: var(--custom-lavender);
+    max-width: 40ch;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: var(--shadow);
+    padding: 1em;
+}
+
+.intro {
+    font-size: 1.3em;
+}
+.stars {
+    font-size: smaller;
+    color: gold;
+}
+
+.stars::before{
+    content: "⭐ "
+}
+
+.forks {
+    font-size: smaller;
+    color: grey;
+}
+
+.forks::before{
+    content: "🍴 "
+}
