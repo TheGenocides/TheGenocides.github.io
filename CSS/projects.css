@@ -1,8 +1,36 @@
-.container {
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-    gap: 1em;
+.project {
+    border: 3px solid var(--dark-blue);
+    margin-top: 2em;
+    position: relative;
+    width: 100vw;
+    height: 37vh;
+}
+
+.text-box-right {
+    font-size: 1.150em;
+    text-align: center;
+    /* border: 3px solid; */
+    padding: 1em;
+    width: 50ch;
+    position: absolute;
+    top: 2.5em;
+    right: 5em;
+    
+}
+.text-box-left {
+    font-size: 1.150em;
+    text-align: center;
+    /* border: 3px solid; */
+    padding: 1em;
+    width: 40ch;
+    position: absolute;
+    top: 2.5em;
+    left: 5em;
+    
+}
+
+div > h2 {
+    color: var(--custom-cyan);
 }
 
 .box {
@@ -13,10 +41,27 @@
     border-radius: 20px;
     background-color: var(--shadow);
     padding: 1em;
+    scroll-behavior: smooth;
+    border: 3px solid black
+}
+
+.left {
+    margin: 3em;
+}
+
+.right {
+    margin: 3em;
+    margin-left: 40em;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
 }
 
 .intro {
     font-size: 1.3em;
+    max-width: 50ch;
 }
 .stars {
     font-size: smaller;
@@ -34,4 +79,13 @@
 
 .forks::before{
     content: "🍴 "
+}
+
+.url {
+    color: var(--custom-blue);
+    text-decoration: none;
+}
+
+.url:hover {
+    text-decoration-line: underline;
 }

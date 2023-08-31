@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 22px;
+    font-size: 1.3rem;
     text-shadow: 1px 1px 1px #000;
     color: var(--custom-green);
     background-color: var(--dark-blue);

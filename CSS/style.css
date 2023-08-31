@@ -5,39 +5,35 @@
 }
 
 html {
-    font-size: 22px;
+    font-size: 1.3rem;
     text-shadow: 1px 1px 1px #000;
     color: var(--custom-green);
     background-color: var(--dark-blue);
     font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
 }
 
-.articles {
-    display: flex;
-    justify-content: space-evenly;
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    
 }
 
-.intro {
-    font-size: larger;
-    text-align: center;
-    width:70ch;
-    display: block;
-    margin: 0 auto;
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+    border: 2px solid rgb(92, 90, 90);
 }
 
-.article-header {
-    color: var(--custom-cyan);
-}
-
-.html-article, .css-article {
-    color: var(--custom-lavender);
-    max-width: 40ch;
-    text-align: justify;
-    border-radius: 20px;
-    background-color: var(--shadow);
-    padding: 1em;
-}
-
-.article-content {
-    padding-top: 1rem;
+/* Handle on active */
+::-webkit-scrollbar-thumb:active {
+    background: rgb(92, 90, 90);
+    border: 2px solid grey;
 }

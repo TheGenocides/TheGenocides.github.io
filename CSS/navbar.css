@@ -13,13 +13,13 @@ nav {
     padding-left: 1em;
 }
 
-a {
+.nav-text {
     text-decoration: none;
     color: var(--custom-blue);
     border-radius: 10px;
     transition: background-color 0.2s ease-out;
 }
 
-a:hover {
+.nav-text:hover {
     background-color: var(--shadow);
 }

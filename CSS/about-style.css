@@ -6,7 +6,7 @@
 
 html {
     font-style: "Dosis";
-    font-size: 22px;
+    font-size: 1.3rem;
     text-shadow: 1px 1px 1px #000;
     color: var(--custom-green);
     background-color: var(--dark-blue);
@@ -43,7 +43,7 @@ html {
 
     transition-property: font-size;
     transition-duration: 0.3s;
-    transition-timing-function: ease;
+    transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
 
